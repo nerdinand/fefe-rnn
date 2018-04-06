@@ -1,0 +1,1 @@
+[l] Tavis Ormandy schlaegt wieder zu. Diesmal nicht mit einer Sicherheitsluecke, sondern mit einem noch uebleren Burn in Richtung Windows: Einem Framework zum Laden einer Windows-DLL unter Linux. Erklaertes Ziel: Damit er ordentlich fuzzing machen kann, weil unter Windows die Tools stinken.Ooooooh das gibt Brandwunden in Redmond!

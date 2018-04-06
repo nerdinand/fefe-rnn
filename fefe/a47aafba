@@ -1,0 +1,1 @@
+[l] Oracle macht die dtrace-Lizenz GPL-kompatibel. dtrace ist ein sehr maechtiges Tracing-Tool, das von Kernel ueber Interpreter bis in interpretierten Code hinein schichtuebergreifend arbeiten kann. Einem offiziellen Port nach Linux stand immer die Lizenz im Wege. Jetzt nicht mehr.ZFS hat ein aehnliches Lizenzproblem. Vielleicht lenkt Oracle da ja auch noch ein?

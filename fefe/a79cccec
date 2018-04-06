@@ -1,0 +1,1 @@
+[l] Hmm, das Upgrade auf Linux 4.12 macht bei mir USB kaputt. Ich dachte, die Zeiten seien vorbei bei Linux, dass derartige Basis-Funktionalitaet kaputtgeht bei neuen Versionen.Update: Einsender helfen aus: Man muss CONFIG_USB_PCI anschalten, wo sich die Beschreibung faelschlicherweise so liest, als sei das bloss fuer irgendwelche SOCs wichtig.

@@ -1,0 +1,1 @@
+[l] Bug des Tages: Skype hat eine "SMS des Todes".Sending the characters “http://:” (without the quotes) crashes Skype, and receiving a message with those characters makes it crash any time you try to sign in again.

@@ -1,0 +1,1 @@
+[l] Virtualisiert, sagten sie! Ist sicher, sagten sie!If an attacker can execute arbitrary code in the guest kernel and a virtfs is set up, the attacker can access the entire filesystem of the host using a symlink attack.

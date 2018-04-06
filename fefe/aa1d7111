@@ -1,0 +1,1 @@
+[l] Bug des Tages: Der FreeBSD-Zufallszahlengenerator war seit vier Monaten kaputt.  Das betrifft glaube ich nur FreeBSD-current.  Wer in der Zeit PGP- oder SSH- oder sonstige Krypto-Keys generiert hat, sollte die dann wohl auch mal zurueckrufen und neue machen.

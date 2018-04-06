@@ -1,0 +1,1 @@
+[l] Benutzt hier jemand memcached? Ihr solltet vielleicht mal kurz pruefen, dass der nicht aus dem Internet erreichbar ist. Auch nicht per UDP.

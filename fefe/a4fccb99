@@ -1,0 +1,1 @@
+[l] Benutzt hier jemand Linux mit USB?Das USB-Subsystem scheint in beklagenswertem Zustand zu sein. Hier sind die Bugs, die das Tool gefunden hat. Ja, das ist ein Fuzzer. Ja, der Code ist so beschissen, dass man mit einem Fuzzer Bugs findet.

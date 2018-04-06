@@ -1,0 +1,1 @@
+[l] Paper des Tages: ASLR-Offset per Timing Side Channel des Branch Predictors im Prozessor finden.We demonstrate that our attack can reliably recover kernel ASLR in about 60 milliseconds when performed on a real Haswell processor running a recent version of Linux.Man muss dazu wissen, wo im Zielcode ein Jump ist, aber haeufig weiss man das.

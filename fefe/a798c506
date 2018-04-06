@@ -1,0 +1,1 @@
+[l] Bug des Tages: In der glibc ist getpid() ploetzlich voll langsam!Bonus: Einziger Betroffener ist systemd, der Bug wurde von Lennart Poettering aufgemacht.

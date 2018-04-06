@@ -1,0 +1,2 @@
+[l] Hey, wisst ihr, was wir schon lange nicht mehr hatten? Sicherheitsluecken in OpenSSL!Die sind alle recht lustig, aber die Zweite ist episch:Because of an implementation bug the PA-RISC CRYPTO_memcmp function is
+effectively reduced to only comparing the least significant bit of each byte.Are you fucking kidding me?!?

@@ -1,0 +1,1 @@
+[l] Benutzt hier jemand Debian Full Disk Crypto? Der setzt anscheinend immer das Passwort auf "p", egal was man eingegeben hat.Update: Das ist ein encfs-Wrapper, nicht Full Disk Crypto. Und wer encfs ohne dieses Cryptokeeper benutzt, ist nicht betroffen.

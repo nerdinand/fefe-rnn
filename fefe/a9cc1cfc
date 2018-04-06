@@ -1,0 +1,1 @@
+[l] Benutzt hier jemand Allwinner-Geraete?echo "rootmydevice" > /proc/sunxi_debug/sunxi_debugDer github-Link zeigt allerdings inzwischen ins Leere.

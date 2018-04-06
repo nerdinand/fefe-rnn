@@ -1,0 +1,1 @@
+[l] Lustige Idee: Theo de Raadt schlaegt vor, bei jedem Booten libc.so neu zu linken, und zwar mit einer zufaelligen Reihenfolge der teilnehmenden Objektdateien. Damit soll verhindert werden, dass die Offsets innerhalb der libc konstant sind, und man aus zufaellig noch wo rumliegenden Werten in Registern und einem festen Offset ein ROP-Gadget finden kann.

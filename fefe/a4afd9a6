@@ -1,0 +1,1 @@
+[l] Noch ein Detail zu Side Channels und Kryptographie: Colin Percival hat 2005 ein Paper geschrieben, wie man RSA-Keys ueber Side Channel leaken kann. Er hat das eingereicht und es wurde abgelehnt. Weil, aeh, hat ja kaum was mit Krypto zu tun.Oh und Den KAISER-Leuten ging es mit ihrer Einreichung zu Blackhat 2017 aehnlich.Update: Hier noch eine schoene Beobachtung von Colin.

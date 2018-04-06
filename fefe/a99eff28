@@ -1,0 +1,1 @@
+[l] Apple hat versehentlich ein paar sonst verschluesselte Dateien in einer Beta ihres Mobil-OS unverschluesselt ausgeliefert. Diese Dateien koennen jetzt reverse engineered werden. Es handelt sich um ihren Kernel-Schutz auf Trustzone-Basis (das ist eine "Trusted Computing"-Geschichte, aehnlich TPM auf Intel).

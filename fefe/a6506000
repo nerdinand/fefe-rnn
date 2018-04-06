@@ -1,0 +1,34 @@
+[l] Das Schoene bei Tech-Themen im Internet ist ja, dass, egal wie viel man weiss oder zu wissen glaubt, es gibt da draussen immer noch Leute, die noch mehr wissen :-)Das Mem, dass die PSHUFB-Loesung schneller sei als POPCNT, geht schon
+laenger rum, stimmt allerdings nicht, wenn man's richtig macht. :)Dan Luu hat darueber geschrieben, das verlinke ich einfach mal:http://danluu.com/assembly-intrinsics/Das POPCNT-Erratum, dass er da am Ende nennt, existiert ueber mehrere
+CPU-Generationen von Intel und ist moeglicherweise "Absicht". Nicht um
+die Performance von POPCNT fuer nicht-NSA-User zu sabotieren :),
+sondern weil ein x86-Decoder ziemlich haarig ist und der Bug nicht
+wirklich schlimm.Die meisten x86-Befehle sind ja bekanntlich dest = dest OP src. Jedes
+"Loch" in der Opcode map, in dem ein unaerer Befehl steht, muss in der
+Instruction Decoding-Logik kodiert werden, damit der Renamer weiss,
+dass der Destination-Operand keine Quelle ist. Nun ist x86 sowieso
+relativ unregelmaessig, allerdings bei weitem nicht so sehr (auf
+Encoding-Ebene und fuer die haeufig vorkommenden Befehle), wie viele das
+denken.Urspruenglich (bei Nehalem, dem original-Core-i7) war das ziemlich
+sicher ein Bug, den sie zu spaet bemerkt haben: da hat jemand den
+Spezialfall vergessen und es macht halt nichts wirklich kaputt, also
+haben sie das Design lieber nicht angefasst. CPU-Hersteller sind bei
+sowas sehr konservativ: wenn man spaet einen nicht-kritischen Bug mit
+einfachem Workaround findet, dann fixt man den in der Regel nicht.
+Denn bei dem Bug weiss man, was passiert - ein Fix macht
+moeglicherweise was anderes kaputt, und Validierungszeit und neue
+Steppings sind extrem teuer. Wenn da was schief geht, hat man
+erstaunlich schnell zweistellige Millionenbetraege verbrannt,
+dementsprechend vorsichtig geht man da vor.In diesem Fall ist der Bug insgesamt harmlos genug, dass er offenbar
+ueber mehrere Generationen in der Bug-Datenbank lag und nie gefixt
+wurde, weil er nicht genug Prioritaet hatte. Sowas ist nicht selten.Popcount ist uebrigens fuer diverse SIMD-Anwendungen hilfreich, nicht
+nur Video. Eigentlich, wann immer es um "filter"-artige
+Transformationen geht (nicht Filter im DSP-Sinne, sondern die Funktion
+hoeherer Ordnung). Bei x86 macht man eine Vergleichsoperation, dann
+movmskps (oder pmovmskb) um eine Bitmaske mit den Resultaten in ein
+Integer-Register zu kriegen, und dann kann man mit ein wenig
+rumgeshuffle die Daten rausschreiben. Popcount braucht man dann am
+Ende, um rauszufinden, um wieviele Bytes man den Output-Zeiger
+verschieben soll. Auch da habe ich einen Link: https://deplinenoise.files.wordpress.com/2015/03/gdc2015_afredriksson_simd.pdfFuer SSE2 und 32-bit-Daten ist POPCNT noch ein bisschen albern (eine
+16-Element-Tabelle tuts auch), wenn man auf 8-bit oder 16-bit arbeitet
+oder AVX macht (8 Lanes statt 4) lohnt sichs aber langsam.Wieder was gelernt! :-) (Danke, Fabian)

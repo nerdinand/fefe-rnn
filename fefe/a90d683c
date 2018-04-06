@@ -1,0 +1,1 @@
+[l] Hmm, das Blog war gerade offline, die Fehlermeldung war "too many open files". Ich habe neulich in gatling ein bisschen die Architektur umgebaut, um Syscalls zu sparen. Ich nehme an, dass ich dabei was kaputt gemacht habe und irgendwo Deskriptoren leaken koennen. Ich werde das mal beobachten, ob ich das Problem finden kann.

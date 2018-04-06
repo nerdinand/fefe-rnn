@@ -1,0 +1,1 @@
+[l] Bug des Tages: Samsung-Telefone schmeissen im Standby-Modus ueber Wifi reinkommende ICMPv6-Pakete weg und kriegen damit Neighbor Discovery und Router Advertisements nicht mit und fallen aus dem Netz.  Anscheinend ist das in der Wifi-Firmware drin, d.h. Softwareupdate hilft auch nicht. (Danke, Andreas)

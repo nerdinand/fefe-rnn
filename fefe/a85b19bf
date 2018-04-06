@@ -1,0 +1,1 @@
+[l] Bug des Tages: OpenBSD ist zu langsam zum Video-Abspielen in Firefox. Und deshalb machen wir jetzt Mutexe statt Spinlocks! (lolwut?!) (Danke, Richard)

@@ -1,0 +1,9 @@
+[l] Es gab mal wieder ein "WIR WERDEN ALLE STÖRBEN"-Paper.  Es stellt sich raus, dass man Bits im Speicher kippen kann, indem man in einem bestimmten Muster auf andere Speicherzellen zugreift.By reading from the same
+address in DRAM, we show that it is possible to corrupt data
+in nearby addresses. More specifically, activating the same
+row in DRAM corrupts data in nearby rows.Öh, wie meinen?  Naja gut, das wird ja wohl nur ein paar ranzige Chinaplaste-"Nur fuer Export"-Module betreffen, oder?We demonstrate
+this phenomenon on Intel and AMD systems using a malicious
+program that generates many DRAM accesses. We induce
+errors in most DRAM modules (110 out of 129) from three
+major DRAM manufacturers. From this we conclude that
+many deployed systems are likely to be at risk.Oh fuck.Hmm, naja, die machen da mit FPGAs rum, das betrifft ja wohl in der Praxis niemanden, oder?  Die Google-Leute haben mal geguckt und konnten das in Code umwandeln, der auf realen CPUs Bits in der Page Table flippen, und sich damit Schreibzugriff beschaffen.Das ist einer dieser Momente, wo man sich fragt, ob man nicht doch lieber Schaefer in Neuseeland werden sollte.Die naechste Frage wird sein, wie verbreitet das Problem in Cloud-Servern ist.  So Amazon EC2 und Microsoft Azure und so.  *schauder*

@@ -1,0 +1,1 @@
+[l] Benutzt hier jemand AMD Ryzen? Es gibt da anscheinend noch Probleme mit dem SMT:On Ryzen there is some sort of interaction between code running at the top of user memory address space and interrupts that can cause FreeBSD to either hang or silently reset.Update: Und unter Linux hat Ryzen wohl unter Last zufaellige Segfaults.

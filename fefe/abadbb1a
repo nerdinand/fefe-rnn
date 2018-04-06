@@ -1,0 +1,4 @@
+[l] Bug des Tages: qemu.The code in qemu which emulates a floppy disk controller did not
+correctly bounds check accesses to an array and therefore was
+vulnerable to a buffer overflow attack.
+

@@ -1,0 +1,1 @@
+[l] Bug des Tages: systemd killt beim Ausloggen Hintergrundprozesse. Das ist eine Option, deren Default jetzt umgestellt wurde, und prompt gehen Detach+Reattach bei screen und tmux nicht mehr richtig, wenn man sich in der Mitte ausgeloggt hat.Ihr werdet es euch schon gedacht haben: Ist gar kein Bug. Sowas geschieht nicht aus Versehen. Ist Absicht.

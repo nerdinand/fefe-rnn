@@ -1,0 +1,1 @@
+[l] Benutzt hier jemand curl?This bug has existed since before curl 6.0. It existed in the first commit we have recorded in the project. (Danke, Rene)

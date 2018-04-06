@@ -1,0 +1,1 @@
+[l] Vor einer Weile habe ich hier gemeckert, dass Rust nur mit einer existierenden Rust-Instanz gebaut werden kann.Das stimmt nicht mehr. Es gibt jetzt einen Rust-nach-C-Compiler in C++, der das Bootstrap-Problem loest. Sehr schoen! (Danke, Mathias)

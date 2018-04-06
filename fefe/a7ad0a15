@@ -1,0 +1,4 @@
+[l] Benutzt hier jemand systemd? Mit systemd-resolved (deren DNS-Client)?An out-of-bounds write was discovered in systemd-resolved when handling
+specially crafted DNS responses. A remote attacker could potentially
+exploit this to cause a denial of service (daemon crash) or execute
+arbitrary code. (CVE-2017-9445)Ach komm, was ist schon ein bisschen remote code execution unter Freunden!War systemd-resolved nicht auch das Tool, das, wenn kein DNS konfiguriert ist, einfach den oeffentlichen DNS-Server von Google nimmt? Datenschutz, Schmatenschutz! Weil "der User ist doof" schonfuer Windows so toll funktioniert hat!

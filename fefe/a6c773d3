@@ -1,0 +1,1 @@
+[l] Hat hier jemand ein Tesla-Auto?Promon researchers have discovered that the Tesla app keeps this token in a plaintext file, in the app's "sandbox" folder. An attacker can read this token if he has access to the user's phone.

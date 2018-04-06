@@ -1,0 +1,1 @@
+[l] Benutzt hier jemand RAID5 oder RAID6 mit btrfs?Das ist wohl keine gute Idee. Lieber auf Blockdevice-Ebene RAID machen und dann normal btrfs drueber. Oder lieber gar kein btrfs und lieber ext4; da weiss man wenigstens, dass das gut abgehangen ist :-)

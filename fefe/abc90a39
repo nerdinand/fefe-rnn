@@ -1,0 +1,25 @@
+[l] Hier ging noch eine Mail von meinem Kollegen Klaus Rodewig ein, die ich mal in Gaenze zitieren moechte, denn er erinnert mich zu Recht an meinen Bildungsauftrag.zu Deinem Post http://blog.fefe.de/?ts=abc8718c waere es total super gewesen, wenn Du in dem Zug auf das eigentlich, viel gravierendere Problem hingewiesen haettest. Die betroffene Bibliothek AFNetwork ist ein Symptom fuer eine grosse Unsitte, nicht nur bei App-Entwicklern. AFNetwork ist eine externe Bibliothek fuer Netzwerk-Aufgaben. Es gibt nichts in AFNetwork, dass sich nicht mit wenigen Handgriffen mit Bordmitteln von iOS durchfuehren liesse. AFNetwork ist im Grossen und Ganzen nur ein Wrapper fuer das URL Loading System. Es ist aber unter App-Entwicklern total hipp, per Cocoapods (externer Paketmanager) solche Libs einzubauen, weil … hey … ich benutze viele Libs mit wohlklingenden Namen … meine App muss gut und ich wichtig sein! AFNetwork wird haeufig nur dazu benutzt, Certificate Pinning zu machen. Nativ sind das knapp 10 Zeilen Code:-(BOOL)checkCertificate:(NSURLAuthenticationChallenge *)challenge{
+    if ([[[challenge protectionSpace] authenticationMethod] isEqualToString: NSURLAuthenticationMethodServerTrust]) {
+SecTrustRef serverTrust = [[challenge protectionSpace] serverTrust];
+        
+        BOOL trustedCert = NO;
+        NSData *theData;
+        NSArray *theHashes = [NSArray arrayWithArray:[EAPConfig eapCloudHashes]];
+        
+        if(serverTrust != NULL) {
+            CFIndex theCertCount = SecTrustGetCertificateCount(serverTrust);
+            
+            for(CFIndex theCertIndex = 0; theCertIndex < theCertCount; theCertIndex++) {
+                SecCertificateRef theCert = SecTrustGetCertificateAtIndex(serverTrust, theCertIndex);
+                theData = (__bridge_transfer NSData *)SecCertificateCopyData(theCert);
+                for (NSString *theHash in theHashes) {
+                    if([theHash caseInsensitiveCompare:[EAPConfig sha1HexDigest:theData]] == NSOrderedSame){
+                        trustedCert = YES;
+                        break;
+                    } else {
+                        trustedCert = NO;
+                    }
+                }
+            }
+        }
+}Das muesste man sich aber entweder googeln oder selbst aus der Doku zusammensuchen. Und dafuer braucht man Hintergrundwissen ueber X509. Viel zu anstrengend. Da klebe ich mir lieber eine Lib mit tausenden Zeilen von Code in meine App und habe keinen blassen Schimmer, was die tut. Und schlauer werde ich damit auch nicht.Ich habe schon viele Apps auditiert. Die Anzahl der Apps, bei denen keine externen Libs fuer Trivialaufgaben verwendet werden, kann ich an einem Finger abzaehlen. SDL … my ass!(Hervorhebungen aus dem Original zitiert)Von mir sei als zusaetzlicher Hinweis noch erlaubt, dass in meiner Berufserfahrung fast alle Apps fuer mobile Endgeraete keine ordentliche Zertifikatspruefung machen.Update: Hier gibt es eine Übersicht der ganzen grottigen Java-APIs an der Stelle. Wenn wir schon dabei sind, in der Kanalisation herumzuruehren …

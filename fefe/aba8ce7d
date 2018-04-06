@@ -1,0 +1,1 @@
+[l] Bug des Tages: Elasticsearch. Der Blogpost ist schon vom 8. Maerz und der Bug ist sogar schon vom Januar, aber ich hoere erst jetzt von dem.Stellt sich raus: Elasticsearch hat by design remote code execution. Das ist Teil des Featuresets, dass man da Code hochlaedt. Inzwischen haben sie wohl sogar sowas wie eine Sandbox, aber das ist offensichtlich mehr Sand als Box.

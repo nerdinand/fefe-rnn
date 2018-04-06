@@ -1,0 +1,1 @@
+[l] "Ach komm, ist doch gar kein echter Buffer Overflow. Der schreibt doch bloss ein einziges Byte mehr, und das Byte ist immer eine 1. Was kann da schon passieren!"Ein Javascript-nach-Root-Sandbox-Ausbruch auf ChromeOS, wie sich rausstellt!

@@ -1,0 +1,1 @@
+[l] Bug des Tages: Wenn es einen User gibt, der "user" im Usernamen hat, verbraet taskhost.exe unter Windows 8.1 gerne mal ordentlich CPU.Wenn euch das an das systemd-Problem vor einer Weile erinnert, insbesondere Microsofts "Loesung" fuer das Problem, dann seid ihr nicht alleine :-)Update: War ein Repost.

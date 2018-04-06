@@ -1,0 +1,1 @@
+[l] Bug des Tages: Wenn nicht Samsung eure Daten frisst, dann vielleicht der RAID-Kernelcode von Linux. Beim urspruenglichen Bugreport fuer das Samsung-SSD-Problem stand dran, dass sie auch md benutzen. Moeglicherweise war das die ganze Zeit gar kein Samsung-Problem, sondern ein md-Problem? (Danke, Holger)

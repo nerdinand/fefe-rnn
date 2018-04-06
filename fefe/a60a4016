@@ -1,0 +1,1 @@
+[l] Bug des Tages: systemd implementiert rm -rf, rennt dabei .. hinterher, loescht ganze Platte.Bonus: Poettering so: Das ist doch gar kein Bug, rm -rf /foo/.* tut das doch auch so?Spoiler: Nein, tut es nicht.

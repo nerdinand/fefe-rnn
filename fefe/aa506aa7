@@ -1,0 +1,9 @@
+[l] Hey, wisst ihr, was wir schon lange nicht mehr hatten?  OpenSSL-Sicherheitsluecken!  In der Ankuendigung dazu hiess es noch: alles belanglose Nebensaechlichkeiten, kein Problem, kein Grund zur Aufregung.  Aber die Liste beinhaltet dann so Kracher wieECDHE silently downgrades to ECDH [Client] (CVE-2014-3572)==========================================================
+
+Severity: LowWait, what?RSA silently downgrades to EXPORT_RSA [Client] (CVE-2015-0204)
+==============================================================
+
+Severity: LowSurely some mistake?DH client certificates accepted without verification [Server] (CVE-2015-0205)
+=============================================================================
+
+Severity: LowUnd zu guter letzt kann auch noch der Fingerprint modifiziert werden und ihre Quadrier-Routine verrechnet sich gelegentlich.  Ihr seht schon: Alles totale Randgruppenprobleme, kein Grund zur Beunruhigung.Update: Falls jemandem die Signifikanz nicht klar war: Der Unterschied zwischen ECDHE und ECDH ist Perfect Forward Secrecy.  Das heisst, dass wenn die Polizei den Serverschluessel beschlagnahmt, sie trotzdem nicht damit die alten NSA-Mitschnitte entschluesseln kann.  TLS ohne Perfect Forward Secrecy auszurollen kann man sich meiner Meinung nach auch gleich sparen.

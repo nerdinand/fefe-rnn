@@ -1,0 +1,62 @@
+[l] Zu den Time Crystals kam eine Einsendung eines Physikers rein, den ich hier aus Bildungsauftragsgruenden mal zitieren moechte:Die Zusammenfassung, die du zu time crystals verlinkst, ist bei der
+Übersetzung von Quantenphysik zu allgemeinverstaendlich etwas uebers Ziel
+hinausgeschossen, denke ich. Ich bin zwar selber eher in der
+Experimentalphysik verortet als in der Theorie oder so, aber ich denke,
+die groben Konzepte der dahinter stehenden Paper habe ich verstanden.
+Es geht grob so vor:Teilchen (z.B. Atome) bewegen sich in der Physik in einer Umgebung,
+  ueblicherweise beschrieben durch einen Hamiltonian. Die Umgebung
+  koennte z.B. Vakuum sein, dann ist der Hamiltonian eben eher
+  langweilig, oder die Umgebung koennte z.B. fuer ein Elektron im Metall
+  schon ganz anders aussehen, weil da sind staendig Atomkerne im Weg
+  usw. Das schreibt man in den Hamiltonian rein.Man kann sich dann anschauen, was so ein Teilchen im vorgegebenen
+  Hamiltonian machen kann: Fuer ein Elektron im Metall kommt da z.B.
+  rumfliegen raus (=elektrische Leitfaehigkeit), fuer ein Elektron im
+  Isolator kommt dagegen eher nur "um immer den gleichen Kern
+  rumfliegen" raus (=Isolation). Aber: Was genau erlaubt ist, haengt
+  ganz stark von der Energie ab, die das Teilchen hat. Wenn man nur
+  genuegend Energie reingibt, fliegt so ein Elektron auch im Isolator
+  rum.Ein besonderer Zustand ist dabei: Was passiert, wenn ich /ueberhaupt
+  keine/ Energie hinein tue? Was ist der energetisch niedrigste Zustand,
+  den mein System/Teilchen mit dem gegebenen Hamiltonian annehmen kann?
+  Solche Zustaende nennt man dann Grundzustand. Fuer manche Hamiltonians
+  ist das relativ einfach, z.B. so ein Elektron im Vakuum kann (in
+  erster Naeherung) einfach irgendwo rumgammeln ohne sich zu bewegen, da
+  ist dann ziemlich minimal Energie. Aber schon bei Elektronen im Metall
+  wird das etwas anders: Da ist zwar im Grundzustand fuer die meisten
+  Elektronen nicht viel los, aber weil nicht alle Elektronen in den
+  niedrigsten Zustand "passen" (Pauli-Prinzip), sind in einem Metall
+  ein paar Elektronen auch im Grundzustand sehr beweglich. Das ist
+  genau der Unterschied zwischen Halbleiter und Metall: Im Halbleiter
+  ist im Grundzustand nichts beweglich, aber mit etwas Energie kommt
+  man in bewegliche Zustaende – im Metall ist immer etwas beweglich.Kristalle sind spezielle Zustaende: Sie wiederholen sich immer in
+  festen Abstaenden. Wenn ich einen Kristall genau einen Atomabstand
+  weiter bewege, sieht er genau aus wie vorher – aber: Wenn ich weniger
+  als einen Atomabstand weiter bewege, sieht er anders aus. Das ist die
+  Definition von Kristallen. Wirklich stabil sind Kristalle nur, wenn
+  sie der Grundzustand eines Systems sind, sonst gehen sie fix kaputt,
+  weil das System die Energie irgendwo anders hin los wird und dann ist
+  der Kristall futsch.Time Crystals sind also Systeme, die genau gleich aussehen, wenn ich
+  die Uhr genau einen Zeitabstand weiter "drehe", aber anders aussehen,
+  wenn ich die Uhr weniger als einen Zeitabstand weiter drehe. Und
+  stabil sind Time Crystals nur, wenn sie der Grundzustand eines
+  Systems sind.Jetzt ist also die spannende Frage: Kann ich einen Hamiltonian so
+  bauen, dass der Grundzustand periodisch in der Zeit wird? Kann ich
+  also z.B. Atome so zusammensetzen, dass die Elektronen die ganze Zeit
+  definierte Kreise fliegen und so z.B. alle 15 ns oder so der gleiche
+  Zustand eingenommen wird, dazwischen aber immer andere?Die Antwort ist: Ne, das geht mit normalen, zeitunabhaengigen
+Hamiltonians nicht. Waere ja auch irgendwie komisch, wie du intuitiv
+schon bemerkt hast.Aber: Wenn ich meinen Hamiltonian in der Zeit veraendere, dann geht
+das! Also: Wenn ich z.B. ein Metall nehme, und das rhytmisch hin und
+her schuettele, dann koennte es sein, dass fuer die Elektronen in dem
+Metall auch ein rhytmischer Zustand der Zustand mit der niedrigsten
+Energie ist, das waere dann ein Zeitkristall.Und, jetzt das coole: Sie haben mit Hilfe von so ein paar Atomen in
+magnetischen Fallen und einem gepulsten Laser genau so eine Umgebung
+geschaffen, die dazu fuehrt, dass der Grundzustand ein zeitlich
+periodischer Zustand ist. Yay!Das ist dann fancy neue Materie, die vielleicht sogar mal fuer
+quantencomputing oder so interessant wird.Aber: um so einen zeitabhaengigen periodischen Hamiltonian (=Umgebung)
+hinzukriegen, muss man natuerlich irgendwas zeitlich periodisches
+machen, wie in diesem Fall den gepulsten Laser. Und da kommt dann auch
+wieder das nicht-perpetuum-mobile ins Spiel: In der gegebenen Umgebung ist der Zeitkristall der Grundzustand mit der
+niedrigsten Energie. Wenn man den Laser aber abschaltet, aendert man die
+Umgebung und dann ist wieder ganz normales "alles spratzt irgendwie
+auseinander" der Grundzustand.

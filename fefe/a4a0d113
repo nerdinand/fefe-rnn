@@ -1,0 +1,1 @@
+[l] Bug des Tages: printf ist schwieriger als man so denken wuerde. Mit meinem rottigen Emergency-Gammel-Printf in der dietlibc war ich noch nie in einer Position, mich ueber anderer Leute printf lustig zu machen, aber DEN Fall mache ich wenigstens richtig :-) (Danke, Magnus)

@@ -1,0 +1,10 @@
+[l] Benutzt hier jemand Xen?ISSUE DESCRIPTION=================The PV pagetable code has fast-paths for making updates to pre-existing
+pagetable entries, to skip expensive re-validation in safe cases
+(e.g. clearing only Access/Dirty bits).  The bits considered safe were too
+broad, and not actually safe.
+
+IMPACT
+======
+
+A malicous PV guest administrator can escalate their privilege to that
+of the host.Aber macht euch keine Sorgen, denn das betrifft bloss Paravirtualisierung auf x86!1!!

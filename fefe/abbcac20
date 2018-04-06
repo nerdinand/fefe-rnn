@@ -1,0 +1,1 @@
+[l] Ich habe hier schon ein paar Mal erwaehnt, dass Anonymisierung von Daten schwierig ist. Hier ist ein schoenes Beispiel von neulich. Es geht da um Taxifahrten in New York. Da haben sie die Taxinummer durch eine Hashfunktion anonymisiert, aber weil der Namensraum da nicht so gross ist, kann man das einfach durch Ausprobieren zurueckrechnen. (Danke, Gernot)

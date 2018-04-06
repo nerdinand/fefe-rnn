@@ -1,0 +1,54 @@
+[l] Noch ein Kommentar zu den polizeilichen Datenabfragen:Bestandsdaten-Anfragen:
+Fuer den Abruf der Bestandsdaten gibt es kein einheitliches Formular.
+Teilweise sind es einfache Freitexte, wo Behoerden nach § 112, 113
+TKG I.V.m §100j StPO ein Auskunftsersuchen stellen.
+Die Anfragen kommen per Fax, Brief und Mail als Text, PDF und Word
+Dokument(!) rein.
+
+
+Da die Echtheit der Mails nicht geprueft werden kann, wird auf ein
+unterschriebenes Fax bestanden (Digitale Signatur? undenkbar).
+Wenn man neu in diesem Bereich ist, haelt man die Anfragen teilweise fuer
+Faelschungen. Nachfragen bei der Polizei bestaetigen aber die Echtheit.
+Obwohl unsere Bestandsdaten nicht verifiziert sind (kostenloser Dienst,
+viele Fakes), kassieren wir ueber 16€ vom Staat fuer die Auskunft, was ich
+sehr bedenklich finde (einige Bundeslaender zahlen weniger).TKÜ-Massnahmen:
+Nach gerichtlicher Anordnung, kommt es vor, dass ein E-Mail Postfach
+gespiegelt werden soll.
+Wir haben keine SINA Box, deswegen sollen die Mails einfach zu einer
+anderen Adresse gespiegelt werden. Manchmal muss man bei der DENIC
+nachschauen, ob die Domain wirklich der Polizei gehoert / sich das
+bestaetigen lassen.
+Es gab Faelle wie: "Bitte spiegelt die Mails auf folgende GMX Adresse". -
+Ja, das war eine echte Anfrage.
+Mittlerweile spiegeln wir aber nur noch intern und nicht auf externe
+Adressen.Das mit der externen Spiegelung wird in manchen Bundeslaendern nicht mehr
+gemacht. Da gab es wohl mal einen Aufall des Mailserver und die Bounce
+Mails gingen dann an die Absender der Mails zurueck…
+PGP:Beim senden von sensiblen Daten ist PGP beim LKA optional.
+Beim BKA ist PGP teilweise Pflicht.
+Begruendung: Sonst sagt der Verteidiger - Wenn die Daten unverschluesselt
+uebertragen wurden, wie wurde sichergestellt, dass die Daten nicht
+manipuliert wurden?
+
+Header Verifizierung:Wir wurden noch nie von Behoerden gefragt, ob wir einen E-Mail Header
+verifizieren koennen bzw die Echtheit des Mail versandes ueber unsere
+Server bestaetigen koennen.
+Wie es zu Bestandsdaten-Abfragen kommt:Eine Bestandsdatenanfrage bedeutet nicht, dass der E-Mail Account etwas
+boeses getan hat. Man muss keine Mails versendet haben. Es reicht, wenn
+die Betroffene E-Mail irgendwo erwaehnt wurde und somit als "Taeter" in
+Frage kommt.Beispiel: Es wird online Ware bestellt und die E-Mail Adresse wurde
+dabei angegeben.Sonstige Probleme:Bei den Behoerden-Anfragen liegt teilweise eine Begruendung bei, mit der
+man ahnen kann, was in manchen Postfaechern liegt. Diese Inhalte will man
+nicht auf seinen Servern haben. Da ein Ermittlungsverfahren gegen den
+Postfach-Besitzer laeuft, darf man diesen verstaendlicherweise nicht
+warnen. Das heisst aber auch, dass man die Daten nicht loeschen darf.
+Leider bekommen wir keine Benachrichtigung, wann das Verfahren
+abgeschlossen ist. Somit muss man einige Zeit lang ueble Inhalte dulden.
+Postfach-Beschlagnahmung:Nach Gerichtlicher Anordnung ist man verpflichtet, die Inhalte des
+Postfaches den Behoerden zu uebergaben. Die Daten moechte gerne direkt vom
+Server an die Behoerden senden. Leider haben die Behoerden keinen SFTP
+oder sonstige Art von Upload. Mit ganz viel Glueck kann man grosse E-Mails
+senden. Somit heisst es: Daten runterladen, auf CD brennen und zur Post
+gehen.
+Update: Dazu ging noch ein Kommentar von einem Admin bei einer Polizeibehoerde ein:„…Die Daten moechte gerne direkt vom Server an die Behoerden senden. Leider haben die Behoerden keinen SFTP oder sonstige Art von Upload. Mit ganz viel Glueck kann man grosse E-Mails senden. …“Diese Mails bleiben regelmaessig an der Firewall haengen weil zu gross, zu suspekt, whatever. Und nachdem man sie dann ueber Umwege doch zugestellt gekriegt hat, wird man als Admin gefragt „Was ist ein .tar.gz, womit macht man das auf?“.

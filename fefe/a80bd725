@@ -1,0 +1,1 @@
+[l] ECDSA-Keys aus Telefonen kann man per elektromagnetischer Abstrahlung extrahieren. Ist jetzt prinzipiell keine grosse Überraschung, aber dass sie das am Ende mit $2-Hardware machen konnten, das irritiert doch ein wenig.Damit dieser Angriff funktioniert, muss man allerdings so ca 1000 ECDSA-Operationen beobachten koennen. Wie realistisch das ist, haengt also davon ab.

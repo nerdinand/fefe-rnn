@@ -1,0 +1,1 @@
+[l] Na, habt ihr alle schoen euer OpenSSL geupdated? Zu frueh, denn 1.1.0a hat eine Remote Code Execution eingefuehrt.Einmal mit Profis arbeiten!Ich kann hier uebrigens seit Wochen kein Rust kompilieren, weil deren Packaging-Tool cargo openssl benutzt und das Modul dafuer nicht mit Version 1.1 kompiliert.

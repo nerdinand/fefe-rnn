@@ -1,0 +1,1 @@
+[l] Ist jemandem eine Cross-Compiler-Umgebung von Unix nach Windows bekannt, die C++11 Threading unterstuetzt?Kann LLVM fuer Windows das?Es gibt da einen Notnagel aber sowas stinkt ja prinzipiell immer und man will lieber richtigen Plattform-Support haben.

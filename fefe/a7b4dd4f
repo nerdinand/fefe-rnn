@@ -1,0 +1,6 @@
+[l] Benutzt hier jemand Software, die RAR-Archive auspacken kann?
+Given the wide prevalence of the unrar source code in third-party software, quite a few
+downstream parties will be affected. The source code with the fixes can be found
+under http://www.rarlab.com/rar/unrarsrc-5.5.5.tar.gz - downstream parties are
+encouraged to quickly update and ship fixes.Oh gut, das betrifft bestimmt so gut wie niemanden!1!! Ja gut, ausgenommen 7-zip und so, und natuerlich die ganzen Antiviren. Dort war der Bug uebrigens zum ersten Mal aufgefallen.It appears that the VMSF_DELTA memory corruption that was reported to Sophos AV in 2012 (and fixed there) was actually inherited from upstream unrar. For unknown reasons the information did not reach upstream rar or was otherwise lost, and the bug seems to have persisted there to this day.
+Ja warum wuerde man auch upstream Bescheid sagen! Da hat man ja einen wettbewerblichen Nachteil von als Schlangenoel, wenn die anderen Schlangenoeler informiert werden, und wenn die Software insgesamt sicherer wird!1!!

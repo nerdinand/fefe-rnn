@@ -1,0 +1,1 @@
+[l] Bug des Tages:When calling CCCrypt with kCCAlgorithmAES128 and using a key not having a length corresponding kCCBlockSizeAES128 to, CCCrypt returns the PLAINTEXT and kCCSuccess as result value. It should return kCCParamError.Hey, was kann da schon schiefgehen? (Danke, Klaus)

@@ -1,0 +1,1 @@
+[l] Bug des Tages: Remote Code Execution in PCRE. PCRE ist wie libpng insofern als dass es an Dutzenden von erwarteten und weniger erwarteten Orten verwendet wird. Allerdings muss man zur Ausnutzung dieser Luecke eine Regex vom Angreifer vorgeben lassen, was grundsaetzlich keine gute Idee ist.

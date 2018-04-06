@@ -1,0 +1,1 @@
+[l] Wichtiger Krypto-Hinweis fuer Hetzner-Kunden:Aufgrund eines Fehlers innerhalb einer Installationsroutine wurden seit dem 10. April 2015 bei der Installation unserer Betriebssystem-Images die Ed25519 SSH Host-Keys (/etc/ssh/ssh_host_ed25519_key) nicht mehr individuell neu generiert. (Danke, Jannis)

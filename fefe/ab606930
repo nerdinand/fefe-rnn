@@ -1,0 +1,1 @@
+[l] Meine Damen und Herren, endlich gibt es wieder ein OpenSSL-Update! Severity: High.Es handelt sich um ein Problem, mit dem man Zertifikatsvalidierung umgehen kann. Gefunden und gefixt wurde das Problem von BoringSSL, dem Google-Fork von OpenSSL.

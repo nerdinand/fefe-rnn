@@ -1,0 +1,1 @@
+[l] Bug des Tages:When a vfat thumbdrive which contains `` or $() in its volume label is plugged and mounted trough the device notifier, it's interpreted as a shell commandUn-fass-bar. (Danke, Tobias)

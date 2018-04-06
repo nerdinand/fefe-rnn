@@ -1,0 +1,20 @@
+[l] Ein Leser schickt mir gerade einen Auszug aus einem Trouble-Ticket-System ein. Er sagt, das kommt vom Helpdesk eines deutschen IT-Grosskonzerns, der an der Stelle Helpdesk fuer einen deutschen Autokonzern macht.   =============
+   13.03.2017 07:45:57 1stLvl
+   Please check
+   PC12345
+   Disk: serious error: Fehlerhafter Block bei Geraet \Device\Harddisk0\DR0.
+   , Security looks fine
+   13.03.2017 14:04:26 2nd Lvl
+   In der  Eventlog sind  sehr viele Disk Fehler aufgelistet, bitte
+   ueberpruefen und evtl. neu Installieren
+   13.03.2017 14:26:20 VorOrt
+   Blade wird gesucht. Nicht in der Dokumentation.
+   14.03.2017 07:59:13 2nd Lvl
+   Wie ist hier der aktuelle Status?
+   Wurde das Blade gefunden?
+   15.03.2017 10:33:58 VorOrt
+   Nein. Dokumentation verweist auf 123 / Ort / 4 / 5 / EG / 6
+   / Maschinenraum 7.8
+   Diese Gebaeude ist abgerissen.
+   =============
+o_O

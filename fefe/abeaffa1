@@ -1,0 +1,1 @@
+[l] Bug des Tages: SELinux. Money Quote:So. Yes, thats correct: The SELinux system that is only there to protect you, passes attacker controlled data to sh -c (https://docs.python.org/2/library/commands.html) ainside a daemon running as root. Sacken lassen…

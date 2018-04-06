@@ -1,0 +1,1 @@
+[l] Bug des Tages: Das Intel-AMT-Problem war wohl ein memcmp(attacker_password, correct_password, strlen(attacker_password))Einmal mit Profis arbeiten!

@@ -1,0 +1,1 @@
+[l] Microsoft hat anscheinend fuer eine Komponente den Quellcode verlegt, die jetzt ein Sicherheitsproblem hatte. Der Patch sieht ziemlich eindeutig so aus, als habe jemand das Problem mit einem Hex-Editor gefixt statt im Quellcode.

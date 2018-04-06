@@ -1,0 +1,8 @@
+[l] Bug des Tages: pam-auth-update may create empty configuration file, disabling all authenticationBrought to you by Debian! Money Quote:I performed a full-upgrade on a system with little space on the root
+filesystem.  This failed part way through due to running out of
+space.  A while after resolving this and completing the upgrade, I
+found that:
+
+1. The GNOME screensaver was no longer password locked
+2. sudo and su failed
+3. I could log in on a VT as any user without a passwordAch komm, Platte voll kommt sooo selten vor, das muessen wir doch nicht pruefen! Damit konnte niemand rechnen!Beachtet auch den zeitlichen Unterschied zwischen der Meldung des Bugs und dem "Me Too"-Posting unten. Hey, wieso wuerde Debian so einen Bug fixen? Betrifft doch nur Leute, deren Platte voll ist!

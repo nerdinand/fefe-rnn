@@ -1,0 +1,21 @@
+[l] Hier noch eine spannende Mail zum Load Shedding in Europa:zum Thema Load-Shedding und Lastabwurfkunden noch ein anderer Hinweis.
+Es gibt auch einen frequenzgesteuerten automatischen Lastabwurf im
+europaeischen Verbundnetz (UCTE). In den Umspannanlagen sind
+frequenzgesteuerte Relais verbaut, die in verschiedenen Stufen Last
+abwerfen. Die Netzbetreiber koennen nicht verhindern, das so ein Relais
+ausloest. Das ganze ist in vier Stufen aufgeteilt und im TransmissionCode
+der Übertragungsnetzbetreiber festgelegt:49,8 Hz: Alarmierung des Personals und Einsatz der noch nicht
+mobilisierten Erzeugungsleistung auf Anweisung des ÜNB, Abwurf
+von Pumpen.49,0 Hz: Unverzoegerter Lastabwurf von 10 - 15 % der Netzlast.48,7 Hz: Unverzoegerter Lastabwurf von weiteren 10 - 15 % der
+Netzlast.
+48,4 Hz: Unverzoegerter Lastabwurf von weiteren 15 - 20 % der
+Netzlast.
+47,5 Hz: Abtrennen aller Erzeugungsanlagen vom Netz.
+Zuletzt ist das soweit ich weiss 2006 in Europa passiert, als das
+UCTE-Netz in drei Frequenzzonen zerbrochen ist.
+Mir wurde auch mal bei einer Besichtigung einer Netzleitstelle eines
+Stadtwerks gesagt, dass es auch gerade Konzepte zu "richtigem"
+Load-Shedding erarbeitet werden, also dass die Ingenieure in den
+Netzleitstellen selbst Last abwerfen koennen, aber da gibt es noch
+erhebliche rechtliche Bedenken, vor allem in Fragen der Haftung.
+

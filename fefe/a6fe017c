@@ -1,0 +1,1 @@
+[l] Benutzt hier jemand guile?Money Quote:The default in Guile has been to expose a port over localhost to which code may be passed.  The assumption for this is that only a local user may write to localhost, so it should be safe.Ja was kann DA schon gross passieren!1!!

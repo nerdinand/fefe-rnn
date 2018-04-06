@@ -1,0 +1,1 @@
+[l] Hey, wisst ihr, was wir schon lange nicht mehr hatten?Einen katastrophalen TLS-Fehler! Und wieder aus der Bleichenbacher-Ecke. What the fuck?Die gute Nachricht ist: OpenSSL und mbedTLS sind anscheinend nicht betroffen (tauchen jedenfalls in der CVE-Liste nicht auf).

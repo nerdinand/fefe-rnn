@@ -1,0 +1,25 @@
+[l] Erinnert ihr euch noch an die BSI-Warnung mit "Risikostufe 5"? Da gibt es jetzt ein Update fuer:im Nachgang zum vorweihnachtlichen Blog-Aufreger und den zahlreichen
+Referenzen in den CCC-/Fnord-Jahresrueckblicken hatte ich Frank auf dem Flur
+noch eine Nachreichung zum verwendeten DAF-Klassifizierungsschema
+versprochen.Bei der Erstellung unserer Security Advisories verwenden wir das,
+zugegebenermassen von einem recht uebersichtlichen Nutzerkreis
+verwendete, "Deutsche Advisory Format".Da das spezifische Risiko einer Schwachstelle letztlich nur vom Systeminhaber
+abgeleitet werden kann, ist ein zweistufiges Verfahren vorgesehen.
+In einem ersten Schritt wird ueber das beschriebene Verfahren zunaechst aus der
+Kenntnis ueber Status und Ausnutzbarkeit einer Schwachstelle, sowie dem
+moeglichen Schaden eine klientel-unabhaengige Risikostufe berechnet. Das Format
+sieht dafuer 5 Stufen vor (1 - sehr gering bis 5 - sehr hoch). Die errechnete
+Risikostufe wird in allen unseren Advisories verwendet. Basierend darauf kann
+der Empfaenger in einem zweiten Schritt die spezifische, von der
+Anwendungsumgebung abhaengige Eintrittswahrscheinlichkeit ermitteln und ggf.
+fuer die Priorisierung seines Patchmanagements verwenden.Eine umfassendere Beschreibung des Formats findet sich inzwischen hier: https://www.cert-bund.de/riskKonkret fuer die Netgear Schwachstelle heisst das:Die Summe aus der Veroeffentlichung eines Exploits (1) und die Moeglichkeit
+einer automatischen Verbreitung (2) ergibt zunaechst eine "hohe"
+Dringlichkeit.Die Summe aus der entfernten Ausfuehrbarkeit (3) von beliebigem Programmcode
+mit Adminrechten ("Systemuebernahme") (4) ergibt weiterhin ein "sehr hohes"
+Schadenspotenzial.Die Summe aus hoher Dringlichkeit und sehr hohem Schadenpotenzial ergibt dann
+die Risikostufe "sehr hoch".Ich hoffe, das Konzept wird damit einigermassen verstaendlich.In den "CERT-Bund Kurzinfos" finden sich diese fuer das Verstehen recht
+wichtigen Details, in den "BSI fuer Buerger - Sicherheitsinfos" werden diese
+allerdings bislang bewusst ausgeblendet.Wir planen derzeit die Risikobewertung unserer Meldungen durch CVSS zu
+ergaenzen. Hier besteht allerdings die ergaenzende Herausfordung, bei
+Schwachstellen mit ungenauen Herstellerangaben zur Auswirkung
+einen "sinnvollen" CVSS-Wert anzugeben.Vielen Dank an der Stelle an das BSI, dass sie mir das geschickt haben.

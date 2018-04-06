@@ -1,0 +1,1 @@
+[l] Benutzt hier jemand wget?Mir ist gerade nicht klar, wieso sie einen Buffer Overflow im Protokollhandling als Important und nicht als Critical bewerten. Wenn du einen Webdienst hast, wo man eine URL angibt, und du machst dann wget darauf, dann ist das ein Critical.

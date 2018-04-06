@@ -1,0 +1,1 @@
+[l] Bug des Tages: FreeBSD muss gcc spezielle Flags uebergeben, damit er auf PPC64 nicht das malloc+memset in ihrer calloc-Implementation nicht durch einen Aufruf zu calloc ersetzt (und damit eine Endlos-Rekursion erzeugt). (Danke, Joerg)

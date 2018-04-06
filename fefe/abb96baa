@@ -1,0 +1,4 @@
+[l] Hinweis des Tages (fuer PHP-Programmierer):md5('240610708') == md5('QNKCDZO')Wie kann das sein? Na, gucken wir doch mal:    $ echo -n 240610708 | md5sum
+    0e462097431906509019562988736854  -
+    $ echo -n QNKCDZO | md5sum
+    0e830400451993494058024219903391  -Da draengt sich eine Erklaerung ja geradezu auf! (via)

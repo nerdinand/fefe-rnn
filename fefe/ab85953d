@@ -1,0 +1,1 @@
+[l] Falls uebrigens jemand schnell OpenSSL geupdated hat: Koennt ihr gleich nochmal updaten. Die haben beim ersten Update das ABI veraendert (Groesse von verwendeten Strukturen im Speicher). Damit ist dann Speicherkorruption in Programmen moeglich, die die shared library benutzen.Einmal mit Profis arbeiten!

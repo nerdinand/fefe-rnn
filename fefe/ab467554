@@ -1,0 +1,1 @@
+[l] Bug des Tages: Nach all den Windows-QA-Verkackern ist jetzt auch das .NET-Framework dran: Kritischer JIT-Fehler im Release-Build vom .NET-Framework 4.6. Es handelt sich um ein Problem mit der Optimierung von Tail Calls, und aeussert sich so, dass dann ploetzlich falsche Parameter uebergeben werden. (Danke, Stefan)

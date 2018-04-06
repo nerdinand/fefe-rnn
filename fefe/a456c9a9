@@ -1,0 +1,14 @@
+[l] Falls das hier zufaellig jemand von der SZ liest…Die SZ hat eine neue Schriftart ausgerollt und bat um Kommentare. Ich habe einen Kommentar geschrieben. Ich finde, in Firefox unter Linux sehen die i-, und ae- und ue-Punkte leicht nach rechts verschoben aus. Ansonsten mag ich die Schriftart. Weniger mag ich die Sans Serif, die sie ausgerollt haben. Die ist mir zu breit. Wenn jemand Schriftarten breiter macht, habe ich immer den Eindruck, der schaemt sich fuer seinen Inhalt und will ihn toller aussehen lassen als er ist.Aber hey. Geschmackssache.Jedenfalls kriege ich hier gerade eine Bounce-Mail. :-)   Fehler bei der Nachrichtenzustellung an folgende Empfaenger oder Gruppen:
+
+   [1]szdm.digitalesdesign@sz.de
+   Ihre Nachricht kann nicht uebermittelt werden, weil die Übermittlung an
+   diese Adresse eingeschraenkt ist.
+
+   Diagnoseinformationen fuer Administratoren:
+
+   Generierender Server: ad.sv.intern
+
+   szdm.digitalesdesign@sz.de
+   #550 5.7.1 RESOLVER.RST.AuthRequired; authentication required
+   ##rfc822;szdm.digitalesdesign@sz.de
+Erstens amuesiere ich mich ueber das "eingeschraenkt". DAHER haben die Scammer also immer ihre Wortwahl! Von kaputt eingedeutschten Exchange-Fehlermeldungen! Die Fehlermeldung kam uebrigens als HTML. Was besonders lustig ist, weil da auch die Mail von mir drin war, und da war ein Spam-Erkennungs-Header drin, der zeigt, dass sie u.a. Spam daran erkennen, dass der Content als HTML kommt.Ja super, liebe Sueddeutsche! Immerhin war ein Postfix davor, und der Exchange haengt nicht direkt mit nacktem Arsch im Internet.

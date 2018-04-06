@@ -1,0 +1,1 @@
+[l] Ein Detail noch zur aktuellen Ransomware und dem Kill-Switch:The second argument to InternetOpenA is 1 (INTERNET_OPEN_TYPE_DIRECT), so the worm will still work on any system that requires a proxy to access the Internet, which is the case on the majority of corporate networks.Einmal mit Profis arbeiten! Zu bloede zum Killswitch-Programmieren!1!!

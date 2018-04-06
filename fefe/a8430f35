@@ -1,0 +1,1 @@
+[l] Bug des Tages: Die virtuellen Netzwerkinterfaces hinter Linux Network Namespaces stellen auch Pakete mit kaputten TCP-Checksums zu.

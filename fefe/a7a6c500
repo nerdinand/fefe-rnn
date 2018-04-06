@@ -1,0 +1,1 @@
+[l] Benutzt hier jemand systemd? Ja, SCHON WIEDER systemd!Ich finde gerade auf die Schnelle keine Quelle fuer die Behauptung, Usernamen unter Unix duerften nicht mit Ziffern beginnen. Ich halte das fuer eine Schutzbehauptung. Moeglicherweise weil die shadow-utils den Bug auch haben.

@@ -1,0 +1,1 @@
+[l] Bug des Tages, gegen strace: Wir lassen unsere App immer unter strace laufen, weil sie dann nicht crasht, aber das ist so langsam!1!!Mein Pro-Tipp: Lieber den Code fixen als immer unter strace laufen lassen! (Danke, Philipp)

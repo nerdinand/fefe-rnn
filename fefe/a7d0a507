@@ -1,0 +1,16 @@
+[l] Spam des Tages:Received: from fsmsg0220.sp.f-secure.com (46.228.130.170)
+        by ptrace.fefe.de with SMTP; 30 May 2017 23:42:12 -0000
+Subject: RE: Urgent
+X-Proofpoint-SPF-Result: softfail
+X-Proofpoint-SPF-Record: v=spf1 mx a a:spf.protection.outlook.com
+        a:fsmsg0219.sp.f-secure.com
+        a:fsmsg0220.sp.f-secure.com ~all
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0
+        suspectscore=0
+        malwarescore=0 phishscore=0 adultscore=0 bulkscore=0 classifier=spam
+        adjust=0 reason=mlx scancount=1 engine=8.0.1-1703280000
+        definitions=main-1705300429
+
+      You have been picked for a $47M USD confidential business proposal, email
+      (chaofang@rogers.com) for more details
+Die Doppelpackung Schlangenoel! F-Secure verkauft "Antivirus"-Schlangenoel und die setzen anscheinend erfolglos dieses Proofpoint-Schlangenoel fuer die Spambekaempfung ein. Laut Wikipedia gegruendet von einem Schlips von Netscape Communications. Da weiss man, was man hat!

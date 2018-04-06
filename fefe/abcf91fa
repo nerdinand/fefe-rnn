@@ -1,0 +1,1 @@
+[l] Bug des Tages:The sixth word in the loremipsum macro should be "consectetur", not "consectetuer", which is a word not found in Cicero … or Latin.Der Bug wurde jetzt gefixt.Der Bug war hier auch schon mal zu Gast. Der Fix ist aber neu. (Danke, Richard)

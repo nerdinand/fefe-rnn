@@ -1,0 +1,25 @@
+[l] Hier geht noch eine Mail eines der Autoren des OpenSSL-Audits ein, und die verdient ihren eigenen Blogeintrag:Zur Klaerung einiger Punkte, die vielleicht von dem Report nicht so
+ersichtlich sind…
+Da es praktisch unmoeglich ist, den ganzen OpenSSL-Code durchzublicken
+und zu evaluieren, waren im Scope der Analyse vor allem folgende Punkte:OpenSSL serverTLS 1.2Verifikation der Gegenmassnahmen der bekannten Angriffe (Identifikation
+des relevanten Codes war im Scope)kryptografische AngriffeAlle Analysen und Algorithmen sollten nachvollzogen werden.Vor allem wegen dem dritten Punkt kann ein Eindruck entstehen, dass
+nichts neues gemacht wurde (ja, wir haben z.b. Heartbleed, EarlyCCS
+nachgeprueft und es tut mir leid, wenn es dir nicht gefaellt).
+In der Studie waren aber andere Angriffe, die vorher nicht konkret auf
+OpenSSL evaluiert wurden, ich nenne nur ein paar Beispiele:
+Bleichenbacher Angriff: da sind wir konkret noch tiefer auf die
+Angriffe eingegangen, als in unserem USENIX Paper (Link).DH-Kleine Untergruppen: es sind mir keine oeffentlichen Dokumente
+bekannt, wo die Angriffe auf die letzten OpenSSL-Versionen besprochen
+waeren.Invalid Curve Angriffe: vorherige Papers untersuchen andere Art dieser
+Angriffe, daher finde ich eine Überpruefung legitim.
+Bei den letzten zwei Punkten wurde es festgestellt, dass
+SSL_OP_SINGLE_DH_USE und SSL_OP_SINGLE_ECDH_USE nicht default sind, was
+im Report steht…Ein falscher Eindruck haette auch dadurch entstehen koennen, dass die
+Ergebnisse erst jetzt publiziert wurden. Die Studie wurde im Zeitraum
+cca. 6-2014/3-2015 durchgefuehrt.Generell finde ich es extrem schwer in einer Bibliothek bugs zu finden,
+die taeglich von hunderten Forschern auch untersucht wird. Da wir keine
+super gefaehrliche bugs gefunden haben, bedeutet es nicht, dass unsere
+Analyse schlecht war. Ein Beweis dafuer liefern auch die letzten CVEs: es
+ist mir nicht bekannt, dass in den letzten zwei Jahren bugs gemeldet
+wurden, die in unserem Scope gewesen waeren und die wir uebersehen haetten
+(oder?).Ich habe inzwischen auch mal ein bisschen in den PDFs geblaettert und muss meine Meinung zu dem Audit revidieren. Schon das Inhaltsverzeichnis macht klar, dass hier methodisch und systematisch vorgegangen wurde, und nicht nur ein bisschen Cherry-Picking stattgefunden hat.Besonders die erwaehnten Krypto-Dinge gefallen mir gut, denn das sind die Sachen, bei denen ich mir nicht sicher bin, dass ich das ordentlich getestet gekriegt haette.Fuer die Zukunft faende ich es gut, wenn wir vom Reaktiven zum Aktiven uebergehen koennten. OpenSSL braucht mehr als einen Audit. OpenSSL braucht zum Beispiel eine Infrastruktur, um den Krypto-Kram optional in einen eigenen Prozess auszulagern, damit bei einem Bug in Apache nicht auch die privaten TLS-Schluessel lecken koennen. Und was mich bei OpenSSL neben der furchtbaren Codestruktur und den ganzen bizarren Abstraktionen und Indirektionen am meisten stoert, ist dass die Defaults in so vielen Faellen Scheisse sind. Erstens braucht man eine metrische Tonne Cargo Cult-Code, um ueberhaupt den ganzen noetigen Buchhaltungsscheiss zu erledigen, und dann braucht man nochmal zwei metrische Tonnen Code, um die ganzen schlechten Defaults zu korrigieren. Das geht so nicht.Ich weiss nicht, ob das BSI dabei helfen kann. OpenBSD hat ja mal angefangen, einfach ein anderes API anzubieten, das weniger schlimm zu benutzen ist. Ich denke, da muessen wir hin.

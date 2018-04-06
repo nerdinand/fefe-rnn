@@ -1,0 +1,1 @@
+[l] Der Meltdown-Fix fuer Windows 7 ist schlimmer als Meltdown.In short - the User/Supervisor permission bit was set to User in the PML4 self-referencing entry. This made the page tables available to user mode code in every process. The page tables should normally only be accessible by the kernel itself.Einmal mit Profis arbeiten! (Danke, Lukas)

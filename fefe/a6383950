@@ -1,0 +1,14 @@
+[l] LLVM 4.0 ist endlich draussen, und da gibt es ein Feature, dass ich so grossartig finde, dass ich da direkt mal drueber bloggen moechte. Es heisst diagnose_if und sieht so aus:int _abs(int a)
+  __attribute__((diagnose_if(a >= 0, "Redundant abs call", "warning")));
+
+int _abs(int a) { return a<0?-a:a; };
+
+int foo() { return _abs(5); }
+Und wenn man das dann kompiliert, passiert das hier:t.c:6:26: warning: Redundant abs call [-Wuser-defined-warnings]
+int foo() { return _abs(5); }
+                         ^
+t.c:2:18: note: from diagnose_if attribute on _abs:
+  __attribute__((diagnose_if(a >= 0, "Redundant abs call", "warning")));
+                 ^           ~~~~~~
+1 warning generated.
+Ich bin ein grosser Freund von Compiler-Warnungen, und wenn man mir eine Methode gibt, um mehr davon selbst zu basteln, dann ist das wie Weihnachten! Das hilft natuerlich nur in Faellen, in denen der Compiler zur Compile-Zeit auswerten kann, ob die Bedingung zutrifft oder nicht. Insofern darf man da keine Wunder erwarten. Aber hey, ich frei mich trotzdem.Wer das cool findet, der wird wahrscheinlich enable_if noch cooler finden. Damit kann man eine Funktion mehrfach deklarieren, und man kann sagen: Wenn diese Bedingung zutrifft, ruf diese Version auf. Die Bedingungen muss wieder zur Compile-Zeit auswertbar sein, aber ich stell mir da Dinge vor wie ein memcpy_aligned fuer den Fall, dass der Zielpointer schon 16-Byte-aligned ist, dann kann man sich moeglicherweise 2-3 CPU-Zyklen Gefummel sparen.

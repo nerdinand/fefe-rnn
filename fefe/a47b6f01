@@ -1,0 +1,1 @@
+[l] Wie so haeufig in der IT-Security: Wenn jemand das Fass aufmacht, dann kommen auch alle anderen angelaufen. Frisches Paper ueber Side Channels in CPUs, diesmal geht es um Cache-Kohaerenz mit Invalidierung, was alle Multiprozessorsysteme zwischen den Cores und CPUs machen. (via)

@@ -1,0 +1,1 @@
+[l] Bug des Tages: Linux-Kernel-Bug erlaubt arbitrary code execution im Kernel. Man braucht dazu einen ICMP-Socket, aber es ist ein lokales Problem, und ICMP-Sockets kriegt man nur als root (ausser die Distribution hat was spezielles mit Capabilities oder so gebastelt). Dennoch wuerde man denken, der Ping-Code sei einigermassen stabil nach all den Jahren.

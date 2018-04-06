@@ -1,0 +1,1 @@
+[l] PSA: In Chrome ist in der neuesten Version der Details-Links weg, mit dem man bei SSL-Seiten die Zertifikats-Details anschauen konnte.Die Funktionalitaet ist jetzt nur noch ueber die Developer Tools benutzbar. F12 -> Security Tab -> View CertificateWas die sich wohl dabei gedacht haben!?
